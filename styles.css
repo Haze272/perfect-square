@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+
+    background-color: gainsboro;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 100vmin;
+    max-width: 700px;
+    aspect-ratio: 1/1;
+
+    background-color: purple;
+}
